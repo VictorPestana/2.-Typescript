@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const frutas = new Set();
+frutas.add("Banana");
+frutas.add("Maça");
+frutas.add("Caqui");
+frutas.add("Banana");
+frutas.add("Manga");
+console.table(frutas);
+console.log("A fruta Morango existe? ", frutas.has("Morango"));
+frutas.delete("Caqui");
+console.table(frutas);
+let setOrdenado = Array.from(frutas).sort();
+console.table(setOrdenado);

@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "d:\\! DEV\\1. Generation\\2. Typescript",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server"
+		}
+	]
+}
